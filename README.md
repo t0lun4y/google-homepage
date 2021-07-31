@@ -1,5 +1,5 @@
 Project: Creating a google-homepage
-A mini project from TheOdinProject, to learn how to become a web developer
+A mini-project from TheOdinProject, to learn how to become a web developer
 
 short briefing: -rebuild an existing web page, 
                  using HTML and CSS, also available developer tools
