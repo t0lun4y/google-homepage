@@ -1,0 +1,18 @@
+/*Stylesheet für das Miniprojekt; google-homepage*/
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suchleiste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
