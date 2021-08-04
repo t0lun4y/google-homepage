@@ -1,7 +1,7 @@
 /*Stylesheet für das Miniprojekt; google-homepage*/
 
 .reiter{
- background-color: rgb(0, 252, 168);
+ background-color: white;
  display: flex;
  align-items: center;
 }
