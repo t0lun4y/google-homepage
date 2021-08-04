@@ -1,9 +1,26 @@
 /*Stylesheet für das Miniprojekt; google-homepage*/
 
+.reiter{
+ background-color: rgb(0, 252, 168);
+ display: flex;
+ align-items: center;
+}
+
 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-height: 150px;
+   max-height: 290px;
+   height: calc(100% -560px);
+}
+
+.google{
+    max-height: 230px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: auto;
 }
 
 .suchleiste{
