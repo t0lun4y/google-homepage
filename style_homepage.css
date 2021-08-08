@@ -1,9 +1,19 @@
 /*Stylesheet für das Miniprojekt; google-homepage*/
 
+.body{
+    background-color: #2A2A2E;
+}
+
 .reiter{
- background-color: white;
+ background-color: #2A2A2E;
  display: flex;
  align-items: center;
+}
+
+.Datum{
+    background-color: #2A2A2E;
+    border: 0px;
+    color: brown;
 }
 
 .logo{
@@ -23,13 +33,24 @@
     margin-top: auto;
 }
 
-.suchleiste{
+.suchzeile{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 54px;
+}
+.Suchfeld{
+    background-color: #424249;
+    width: auto;
+    max-width: 800px;
+    height: 24px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 3px 3px;
 }
 .search{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
