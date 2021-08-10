@@ -10,18 +10,41 @@
     background-color: #2A2A2E;
 }
 
-.reiter{
- background-color: #2A2A2E;
- display: flex;
- align-items: center;
+ul{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    list-style-type: none;
+    display: inline;
+    padding: 0%
 }
 
-.Datum{
+.home{
     background-color: #2A2A2E;
-    border: 0px;
-    color: brown;
+    padding: 5px;
+    border: #2A2A2E solid;
+    float: left;
 }
-
+.about{
+    background-color: #2A2A2E;
+    padding: 5px;
+    border: #2A2A2E solid;
+    float: left;
+}
+.contact{
+    background-color: #2A2A2E;
+    padding: 5px;
+    border: #2A2A2E solid;
+    float: right;
+}
+.Signin{
+    background: royalblue;
+    padding: 5px;
+    padding-right: 10px;
+    border: royalblue solid;
+    float: right;
+    position: relative;
+}
 .logo{
    display: flex;
    flex-direction: column;
