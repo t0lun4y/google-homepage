@@ -1,5 +1,11 @@
 /*Stylesheet für das Miniprojekt; google-homepage*/
 
+.size{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    min-width: 200px;
+}
 .body{
     background-color: #2A2A2E;
 }
@@ -20,9 +26,10 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   padding: 50px;
+   padding-bottom: 0px;
    min-height: 150px;
    max-height: 290px;
-   height: calc(100% -560px);
 }
 
 .google{
@@ -53,4 +60,37 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.such{
+    width: 60px;
+    height: 26px;
+    background-color: #424249;
+    border: #000000;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-right: 5px;
+    box-shadow: 0 3px 3px;
+}
+.such:hover{
+    background-color: brown;
+}
+.hilfe{
+    width: 60px;
+    height: 26px;
+    background-color: #424249;
+    border: #2A2A2E;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 5px;
+    box-shadow: 0 3px 3px;
+}
+.hilfe:hover{
+    background-color: brown;
+}
+.footer{
+    display: flex;
+    color: brown;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 400px;
 }
