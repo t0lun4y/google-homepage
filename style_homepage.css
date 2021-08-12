@@ -11,41 +11,52 @@ body{
 }
 
 ul{
+    background-color: rgb(32, 32, 32);
     position: fixed;
     top: 0%;
     width: 100%;
     list-style-type: none;
     display: inline;
-    padding: 0%
+    padding: 0%;
+    margin: 0%;
+    left: 0px;
 }
 
+a{
+    color: brown;
+    text-decoration: none;
+}
 .home{
-    background-color: #2A2A2E;
     padding: 5px;
-    border: #2A2A2E solid;
+    border:rgb(19, 18, 18) solid;
     float: left;
+    border-right: 1px solid #424249;
 }
 .about{
-    background-color: #2A2A2E;
     padding: 5px;
-    border: #2A2A2E solid;
+    border: rgb(19, 18, 18) solid;
     float: left;
+    border-right: 1px solid #424249;
 }
 .contact{
-    background-color: #2A2A2E;
-    padding: 5px;
-    border: #2A2A2E solid;
+    border:rgb(19, 18, 18) solid;
     float: right;
+    margin-right: 20px;
+    padding: 5px;
+    border-right: 1px solid #424249;
+    border-left: 1px solid #424249;
 }
 .Signin{
-    background: royalblue;
+    background: rgb(240, 83, 83);
     padding: 5px;
-    padding-right: 10px;
-    border: royalblue solid;
+    border: rgb(240, 83, 83) solid;
+    border-radius: 2px;
     float: right;
     position: relative;
+    right: 12px;
 }
 .logo{
+   margin-top: 200px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -93,6 +104,7 @@ ul{
     border-radius: 8px;
     margin-right: 5px;
     box-shadow: 0 3px 3px;
+    font-weight: 700;
 }
 .such:hover{
     background-color: brown;
@@ -106,6 +118,7 @@ ul{
     border-radius: 8px;
     margin-left: 5px;
     box-shadow: 0 3px 3px;
+    font-weight: 700;
 }
 .hilfe:hover{
     background-color: brown;
@@ -115,5 +128,5 @@ footer{
     color: brown;
     justify-content: center;
     font-size: 10px;
-    margin-top: 400px;
+    margin-top: 430px;
 }
